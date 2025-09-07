@@ -10,4 +10,4 @@ Ubuntu 24.04 LTS<br>
 Raspberry Pi OS 
 ### Purpose 
 The homelab will run two Docker containers using Kubernetes
-The applications will be carnac or [stabler](https://github.com/dodderingstalwart/strabler)
+The applications will be [carnac](https://github.com/dodderingstalwart/carnac) or [stabler](https://github.com/dodderingstalwart/strabler)
