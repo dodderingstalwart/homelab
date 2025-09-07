@@ -8,3 +8,6 @@ Ubuntu 24.04 LTS<br>
 ## Worker Nodes
 2xRaspberry Pi 5 (8GiB)
 Raspberry Pi OS 
+### Purpose 
+The homelab will run two Docker containers using Kubernetes
+The applications will be carnac or stabler
