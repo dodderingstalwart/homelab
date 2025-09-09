@@ -1,6 +1,7 @@
 # Homelab<br>
 ## Running
 k3s<br>
+* Two node cluster
 Docker<br>
 ## Control Node
 Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
