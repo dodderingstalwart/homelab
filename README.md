@@ -14,4 +14,4 @@ Raspberry Pi OS
 ### Purpose 
 * Create a full CI/CD pipeline
 * The homelab will run two Docker containers using Kubernetes<br>
-* The applications running are [carnac](https://github.com/dodderingstalwart/carnac) or [stabler](https://github.com/dodderingstalwart/strabler)
+* The applications running are [carnac](https://github.com/dodderingstalwart/carnac) and [stabler](https://github.com/dodderingstalwart/strabler)
