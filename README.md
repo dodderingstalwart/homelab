@@ -1,7 +1,7 @@
 # Homelab<br>
 ## Running
 k3s<br>
-* Two node cluster<br>
+* Control plane with two node cluster<br>
 
 Docker<br>
 ## Control Node
