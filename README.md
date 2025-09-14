@@ -4,6 +4,7 @@ k3s<br>
 * Control plane with two node cluster<br>
 
 Docker<br>
+Ansible<br>
 ## Control Node
 Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
 2x8GiB System Memory DIMM DDR3 Synchronous 1600MHz<br>
