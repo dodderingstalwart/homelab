@@ -1,4 +1,4 @@
-# Homelab<br>
+# Introduction<br>
 ## Running
 k3s<br>
 * Control plane with two node cluster<br>
