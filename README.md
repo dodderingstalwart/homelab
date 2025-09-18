@@ -14,6 +14,6 @@ Ansible<br>
 * 2x[Raspberry Pi 5 (8GiB)](https://www.raspberrypi.com/products/raspberry-pi-5/)
 * Raspberry Pi OS 
 ### Purpose 
-* Create a full CI/CD pipeline
+* To learn how to create and a run a full CI/CD Pipeline<br>
 * The homelab will run two Docker containers using Kubernetes<br>
-* The applications running are [carnac](https://github.com/dodderingstalwart/carnac) and [stabler](https://github.com/dodderingstalwart/strabler)
+* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac)<br>
