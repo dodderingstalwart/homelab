@@ -11,13 +11,15 @@ Ansible<br>
 * Update and configure all the nodes
 
 ## Hardware
-- Control Node
+Control Node<br>
 * Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
 * 2x8GiB System Memory DIMM DDR3 Synchronous 1600MHz<br>
 * Ubuntu 24.04 LTS<br>
-- Worker Nodes
+
+Worker Nodes<br>
 * 2x[Raspberry Pi 5 (8GiB)](https://www.raspberrypi.com/products/raspberry-pi-5/)
-* Raspberry Pi OS 
+* Raspberry Pi OS
+
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline<br>
 * The homelab will run two Docker containers using Kubernetes<br>
