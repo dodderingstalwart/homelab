@@ -2,9 +2,12 @@
 ## Running
 k3s<br>
 * Control plane with two node cluster<br>
-
+* Manage my containers 
 Docker<br>
+* Containerize my application 
 Ansible<br>
+* Update all the nodes
+
 ## Hardware
 - Control Node
 * Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
