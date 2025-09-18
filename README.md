@@ -2,9 +2,11 @@
 ## Running
 k3s<br>
 * Control plane with two node cluster<br>
-* Manage my containers 
+* Manage my containers
+  
 Docker<br>
-* Containerize my application 
+* Containerize and run my applications 
+  
 Ansible<br>
 * Update all the nodes
 
