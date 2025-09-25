@@ -1,0 +1,19 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: update apt packages
+      ansible.builtin.apt:
+        update_cache: yes
+
+    - name: upgrade apt package
+      ansible.builtin.apt:
+        upgrade: full
+
+    - name: Remove dependencies
+      ansible.builtin.apt:
+        autoremove: yes
+
+    - name: Clean cache
+      ansible.builtin.apt:
+        autoclean: yes
