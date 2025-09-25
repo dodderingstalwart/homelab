@@ -8,7 +8,7 @@ Docker<br>
 * Containerize and run my applications 
   
 Ansible<br>
-* Update and configure all the nodes
+* Using a playbook to update and configure all the nodes
 
 ## Hardware
 Control Node<br>
