@@ -2,18 +2,18 @@
 - hosts: all
   become: true
   tasks:
-    - name: update apt packages
+    - name: Update apt packages # run apt update 
       ansible.builtin.apt:
         update_cache: yes
 
-    - name: upgrade apt package
+    - name: Upgrade apt package # run apt upgrade
       ansible.builtin.apt:
         upgrade: full
 
-    - name: Remove dependencies
+    - name: Remove dependencies # run apt autoremove
       ansible.builtin.apt:
         autoremove: yes
 
-    - name: Clean cache
+    - name: Clean cache # run apt autoclean
       ansible.builtin.apt:
         autoclean: yes
