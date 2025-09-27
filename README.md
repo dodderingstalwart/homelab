@@ -23,4 +23,5 @@ Worker Nodes<br>
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline<br>
 * The homelab will run two Docker containers using Kubernetes<br>
-* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac)<br>
+* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac) (currently running locally only)<br>
+* Learn Google Cloud by keeping data in cloud bucket<br>
