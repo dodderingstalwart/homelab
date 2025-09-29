@@ -1,14 +1,14 @@
 # Introduction<br>
 ## Running
 k3s<br>
-* Control plane with two node cluster<br>
-* Manage my containers
+* Control plane with two node cluster.<br>
+* Manage the carnac containers.
   
 Docker<br>
-* Containerize and run my applications 
+* Containerize to run the applications.
   
 Ansible<br>
-* Using a playbook to update and configure all the nodes
+* Using a playbook to update and configure all the nodes.
 
 ## Hardware
 Control Node<br>
@@ -21,7 +21,10 @@ Worker Nodes<br>
 * Raspberry Pi OS
 
 ### Purpose 
-* To learn how to create and a run a full CI/CD Pipeline<br>
-* The homelab will run two Docker containers using Kubernetes<br>
-* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac) (currently running locally only)<br>
-* Learn Google Cloud by keeping data in cloud bucket<br>
+* To learn how to create and a run a full CI/CD Pipeline.<br>
+* The homelab will run two Docker containers using Kubernetes.<br>
+* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac) (currently running locally only).<br>
+
+### Future
+* To help learn Google Cloud API by using cloud bucket to host data.<br>
+* Push database into self-hosted deepseek for training on Carnac insults/jokes.<br> 
