@@ -1,5 +1,7 @@
+# Update, upgrade, autoremove, autoclean all hosts
 ---
-- hosts: all
+- name: Updating all hosts
+  hosts: all
   become: true
   tasks:
     - name: Update apt packages # run apt update 
