@@ -26,6 +26,9 @@ Worker Nodes<br>
 * The homelab will run two Docker containers using Kubernetes.<br>
 * The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac) (currently running locally only).<br>
 
+## Currently
+* Currently switching to run k3s with Ansible for better automation 
+
 ### Future
 * To help learn Google Cloud API by using cloud bucket to host data.<br>
 * Push database into self-hosted deepseek for training on Carnac insults/jokes.<br> 
