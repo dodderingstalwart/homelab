@@ -2,7 +2,8 @@
 ## Running
 k3s<br>
 * Control plane with two node cluster.<br>
-* Manage the carnac containers.
+* Manage the carnac containers.<br>
+* Have persistent volumes for jokes/insults<br>
   
 Docker<br>
 * Containerize to run the applications.
