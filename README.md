@@ -11,6 +11,9 @@ Docker<br>
 Ansible<br>
 * Using a playbook to update and configure all the nodes.
 
+Prometheus<br>
+* Using Prometheus services to monitor the cluster
+
 ## Hardware
 Control Node<br>
 * Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
