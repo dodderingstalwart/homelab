@@ -1,4 +1,5 @@
 # Introduction<br>
+The main purpose of this homelab is to learn about Kubernetes, containers and all the tools to have a CI/CD pipeline.
 ## Running
 k3s<br>
 * Control plane with two node cluster.<br>
