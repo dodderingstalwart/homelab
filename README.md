@@ -1,5 +1,6 @@
 # Introduction<br>
-The main purpose of this homelab is to learn about Kubernetes, containers and all the tools to have a CI/CD pipeline.
+The main purpose of this homelab is to learn about Kubernetes, containers and all the tools to have a CI/CD pipeline.  I created the application called Carnac and wanted to self-host it on my own hardware.  This homelab has been difficult as I try to understand why and what tools are necessary to be able to run my application.  As I continue to learn and add more tools, I will document the process the best I can.<br>
+
 ## Running
 k3s<br>
 * Control plane with two node cluster.<br>
