@@ -19,3 +19,14 @@
     - name: Clean cache # run apt autoclean
       ansible.builtin.apt:
         autoclean: yes
+
+    - name: Reboot check
+      stat:
+        path: /var/run/reboot-required
+      register: reboot_required
+
+    - name: Reboot if required
+      reboot:
+        msg: "Ansible rebooting computer..."
+        reboot_timeout: 300
+      when: reboot_required.stat.exists
