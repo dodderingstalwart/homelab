@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dodderingstalwart
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dodderingstalwart
+  template:
+    metadata:
+      labels:
+        app: dodderingstalwart
+    spec:
+      containers:
+      - name: dodderingstalwart
+        image: carllafong/dodderingstalwart:latest
+        ports:
+        - containerPort: 80
