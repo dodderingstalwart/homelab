@@ -30,7 +30,7 @@ Worker Nodes<br>
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline.<br>
 * The homelab will run two Docker containers using Kubernetes.<br>
-* The pipeline will run my website. (https://github.com/dodderingstalwart/dodderingstalwart.io) (currently running locally only).<br>
+* The pipeline will run my website. (https://github.com/dodderingstalwart/dodderingstalwart.github.io) (currently running locally only).<br>
 
 ## Currently
 * Currently switching to run k3s with Ansible for better automation 
