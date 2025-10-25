@@ -1,10 +1,10 @@
 # Introduction<br>
-The main purpose of this homelab is to learn about Kubernetes, containers and all the tools to have a CI/CD pipeline.  I created the application called Carnac and wanted to self-host it on my own hardware.  This homelab has been difficult as I try to understand why and what tools are necessary to be able to run my application.  As I continue to learn and add more tools, I will document the process the best I can.<br>
+The main purpose of this homelab is to learn about Kubernetes, containers and all the tools to have a CI/CD pipeline.  I created my website and wanted to self-host it on my own hardware.  This homelab has been difficult as I try to understand why and what tools are necessary to be able to run my application.  As I continue to learn and add more tools, I will document the process the best I can.<br>
 
 ## Running
 k3s<br>
 * Control plane with two node cluster.<br>
-* Manage the carnac containers.<br>
+* Manage the website in the containers.<br>
 * Have persistent volumes for jokes/insults<br>
   
 Docker<br>
@@ -30,7 +30,7 @@ Worker Nodes<br>
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline.<br>
 * The homelab will run two Docker containers using Kubernetes.<br>
-* The pipeline will run the application [carnac](https://github.com/dodderingstalwart/carnac) (currently running locally only).<br>
+* The pipeline will run my website. (https://github.com/dodderingstalwart/dodderingstalwart.io) (currently running locally only).<br>
 
 ## Currently
 * Currently switching to run k3s with Ansible for better automation 
