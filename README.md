@@ -25,7 +25,7 @@ Control Node<br>
 Worker Nodes<br>
 * 2x[Raspberry Pi 5 (8GiB)](https://www.raspberrypi.com/products/raspberry-pi-5/)
 * Raspberry Pi OS
-* Using nvme storage
+* Using usb storage
 
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline.<br>
