@@ -8,7 +8,7 @@ k3s<br>
 * Have persistent volumes for jokes/insults<br>
   
 Docker<br>
-* Containerize to run the applications.
+* Containerize the website and applications.
   
 Ansible<br>
 * Using a playbook to update and configure all the nodes.
