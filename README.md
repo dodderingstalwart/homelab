@@ -14,7 +14,10 @@ Ansible<br>
 * Using a playbook to update and configure all the nodes.
 
 Prometheus<br>
-* Using Prometheus services to monitor the cluster
+* Using Prometheus services to monitor the cluster.
+
+nginx<br>
+* Load balancer running on the master node.
 
 ## Hardware
 Control Node<br>
