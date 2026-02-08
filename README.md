@@ -16,6 +16,8 @@ Ansible<br>
 Prometheus<br>
 * Using Prometheus services to monitor the cluster.
 
+Flux<br>
+
 nginx<br>
 * Load balancer running on the master node.
 
