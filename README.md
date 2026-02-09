@@ -5,7 +5,7 @@ The main purpose of this homelab is to learn about Kubernetes, containers and al
 k3s<br>
 * Control plane with two node cluster.<br>
 * Manage the website in the containers.<br>
-* Have persistent volumes for jokes/insults<br>
+* Have persistent volumes for jokes/insults.<br>
   
 Docker<br>
 * Containerize the website and applications.
@@ -17,6 +17,7 @@ Prometheus<br>
 * Using Prometheus services to monitor the cluster.
 
 Flux<br>
+* GitOps to manage the kubernetes cluseter.
 
 nginx<br>
 * Load balancer running on the master node.
