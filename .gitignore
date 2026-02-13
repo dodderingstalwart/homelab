@@ -4,3 +4,8 @@ ansible/inventory/
 *.cfg
 *.retry
 *.log
+
+# Kubernetes Sensitive Data
+*.secret
+*.key
+*.env
