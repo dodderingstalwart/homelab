@@ -1,1 +1,4 @@
-* Future Changes
+# Changelog
+
+### Added
+* Flux configuration
