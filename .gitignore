@@ -4,7 +4,7 @@ infrastructure/ansible/inventory/*
 *.cfg
 *.retry
 *.log
-inventory.ini
+infrastructure/ansible/inventory/inventory.ini
 
 # Kubernetes Sensitive Data
 *.secret
