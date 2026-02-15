@@ -1,6 +1,6 @@
 # Ansible
 .ansible/
-infrastructure/ansible/inventory/
+infrastructure/ansible/inventory/*
 *.cfg
 *.retry
 *.log
