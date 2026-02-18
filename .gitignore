@@ -10,3 +10,22 @@ infrastructure/ansible/inventory/
 *.secret
 *.key
 *.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Logs
+*.log
+logs/
+
+# Temp Files
+tmp/
+
+# Backup Files
+*.bak
+*.backup
