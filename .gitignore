@@ -29,3 +29,7 @@ tmp/
 # Backup Files
 *.bak
 *.backup
+
+# OS
+.DS_Store
+Thumbs.db
