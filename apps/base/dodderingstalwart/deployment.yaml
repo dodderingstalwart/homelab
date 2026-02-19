@@ -12,14 +12,9 @@ spec:
       labels:
         app: dodderingstalwart
     spec:
-      securityContext:
-        runAsUser: 33
-        runAsGroup: 33
       containers:
         - name: dodderingstalwart
           image: carllafong/dodderingstalwart:latest
-          securityContext:
-            allowPrivilegeEscalation: false
           ports:
             - containerPort: 80
 
