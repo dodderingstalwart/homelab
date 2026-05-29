@@ -24,14 +24,16 @@ nginx<br>
 
 ## Hardware
 Control Node<br>
-* Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz<br>
-* 2x8GiB System Memory DIMM DDR3 Synchronous 1600MHz<br>
-* Ubuntu 24.04 LTS<br>
+* Intel(R) Core(TM) i7 CPU @ 3.70GHz<br>
+* 2x16GiB RAM<br>
+* Fedora<br>
 
 Worker Nodes<br>
 * 2x[Raspberry Pi 5 (8GiB)](https://www.raspberrypi.com/products/raspberry-pi-5/)
 * Raspberry Pi OS
 * Using USB storage
+* AMD Ryzen 3 Laptop
+* 16 GiB RAM
 
 ### Purpose 
 * To learn how to create and a run a full CI/CD Pipeline.<br>
