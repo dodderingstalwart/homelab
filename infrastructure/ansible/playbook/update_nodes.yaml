@@ -1,0 +1,17 @@
+---
+- name: Update systems
+  hosts: carnac
+  become: yes
+  tasks:
+    - name: update Debian machines
+      ansible.builtin.apt:
+        update_cache: yes
+        upgrade: dist
+      when: ansible_facts['os_family']== "Debian"
+
+    - name: update RedHat machines
+      ansible.builtin.dnf:
+        name: "*"
+        state: latest
+        update_cache: yes
+      when: ansible_facts['os_family'] == "RedHat"
